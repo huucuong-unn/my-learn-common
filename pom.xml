@@ -77,4 +77,17 @@
         </plugins>
     </build>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub My Learn Common Package</name>
+      <url>https://maven.pkg.github.com/huucuong-unn/my-learn-common</url>
+    </repository>
+    <snapshotRepository>
+      <id>github</id>
+      <name>GitHub My Learn Common Package snapshot repo</name>
+      <url>https://maven.pkg.github.com/huucuong-unn/my-learn-common</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
