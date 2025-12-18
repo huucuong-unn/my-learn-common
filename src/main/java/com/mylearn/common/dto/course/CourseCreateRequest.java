@@ -9,6 +9,7 @@ import lombok.Value;
 public class CourseCreateRequest {
   String title;
   String description;
+  String summary;
   UUID categoryId;
   Integer priceCents;
 }
