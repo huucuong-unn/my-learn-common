@@ -1,5 +1,6 @@
 package com.mylearn.common.dto.course;
 
+import com.mylearn.common.enums.CourseStatus;
 import java.util.UUID;
 import lombok.Builder;
 import lombok.Value;
@@ -15,4 +16,5 @@ public class CourseResponse {
   CategoryResponse category;
   UUID instructorId;
   Integer priceCents;
+  CourseStatus status;
 }
