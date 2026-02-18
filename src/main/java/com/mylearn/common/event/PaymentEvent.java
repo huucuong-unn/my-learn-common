@@ -2,7 +2,9 @@ package com.mylearn.common.event;
 
 import java.time.Instant;
 import java.util.UUID;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.NoArgsConstructor;
 import lombok.Value;
 
 /**
@@ -11,6 +13,8 @@ import lombok.Value;
  */
 @Value
 @Builder
+@NoArgsConstructor(force = true)
+@AllArgsConstructor
 public class PaymentEvent {
 
   // Unique ID for the event message
